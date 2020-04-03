@@ -1,0 +1,7 @@
+Clase model:
+	-Firma = Sediu, Angajat, Proiecte, Istoric, nume firma, anului aparitiei, nr angajati, venit anual, buget,\
+	, nr sedii,
+	-Angajat -> tipuri de angajati clase derivate
+	-Sediu = Angajat, locatia, anul aparitiei, bugetul alocat, numarul de angajati, seful sediului
+	-Proiecte = bani alocati, numele proiectului, data incepere, data finalizare,  
+	-Venit = buget anual, incasari, salarii angajati, buget alocat pentru situatii speciale, 
