@@ -15,10 +15,10 @@ public abstract class Angajat {
     protected String tip_angajat;
     protected String punct_lucru;
 
-    protected Angajat(){
+    public Angajat(){
     }
 
-    protected Angajat(String nume, int varsta, int an_angajare, int luna_angajare, int zi_angajare , float salariu, float prima, int numar_zile_concediu, String punct_lucru) {
+    public Angajat(String nume, int varsta, int an_angajare, int luna_angajare, int zi_angajare , float salariu, float prima, int numar_zile_concediu, String punct_lucru) {
         this.nume = nume;
         this.varsta = varsta;
         this.salariu = salariu;
@@ -30,7 +30,7 @@ public abstract class Angajat {
         this.punct_lucru = punct_lucru;
     }
 
-    protected Angajat(String nume, int varsta, float salariu){
+    public Angajat(String nume, int varsta, float salariu){
         this.nume = nume;
         this.varsta = varsta;
         this.salariu = salariu;
